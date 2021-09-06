@@ -1,6 +1,6 @@
-/* use variables to be able to easily adjust colors(generally) */
-/* add font family from google fonts*/
-/* add icons from font awesome */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
 
 *{
     padding: 0;
@@ -19,10 +19,10 @@ body{
     min-width: 100vw;
 }
 .font-1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 .font-2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 section{
     max-width: 100vw;
@@ -158,6 +158,7 @@ padding: 4em 2em;
    margin: 1.5em 0;
    color: var(--color1);
    font-size: 2em;
+   font-family: 'Homemade Apple', cursive;
 }
 .section-6{
     background-color: var(--color1);
